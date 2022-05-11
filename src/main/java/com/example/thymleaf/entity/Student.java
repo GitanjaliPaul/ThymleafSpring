@@ -13,7 +13,9 @@ public class Student {
     @Column(name="last_name",nullable=false)
     private String lastName;
     private String email;
+public Student(){
 
+}
 
     public Student(String firstname, String lastName, String email) {
         this.firstname = firstname;

@@ -25,37 +25,11 @@
         </tr>
     </thread>
     <tbody>
-    <tr th:each="student:${students}"</tr>
+    <tr th:each="student:${students}">
     <td th:text="${student.firstname}"></td>
     <td th:text="${student.lastname}"></td>
-    <td th:text="${student.email}"></td>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        <td th:text="${student.email}"></td>
+    </tr>
 
     </tbody>
 </table>

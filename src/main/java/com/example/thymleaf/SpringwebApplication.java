@@ -20,6 +20,9 @@ private StudentRepository studentRepository;
 	public void run(String... args) throws Exception {
 Student student1=new Student("ramesh","yadav","yahe34@gmail.com");
 		studentRepository.save(student1);
-	}
-}
+
+	Student ystudent2=new Student("ramsh","yaav","yahe3444@gmail.com");
+		studentRepository.save(ystudent2);
+
+}}
 
